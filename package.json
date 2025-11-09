@@ -1,0 +1,48 @@
+{
+  "name": "md-converter",
+  "version": "1.0.0",
+  "description": "Convert Markdown to DOCX, XLSX, and PPTX with Excel formula support. Includes MCP server and CLI interfaces.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "md-convert": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "serve": "tsx src/mcp/server.ts",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "markdown",
+    "docx",
+    "xlsx",
+    "pptx",
+    "converter",
+    "mcp",
+    "excel-formulas"
+  ],
+  "author": "Dale Rogers",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "docx": "^8.5.0",
+    "exceljs": "^4.4.0",
+    "glob": "^10.3.10",
+    "markdown-it": "^14.0.0",
+    "pptxgenjs": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^13.0.7",
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
