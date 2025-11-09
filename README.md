@@ -261,10 +261,22 @@ md_converter/
 
 ## Limitations
 
-- DOCX: Formulas displayed as text (Word doesn't support Excel formulas)
-- PPTX: Complex tables may need manual adjustment
-- Images: Not yet supported (coming soon)
-- Large files: May take time to process (batch mode recommended)
+### Formula Support by Format
+
+| Format | Formula Support | Description |
+|--------|----------------|-------------|
+| **XLSX** | ✅ **Full Support** | Formulas converted to actual Excel formulas that calculate automatically |
+| **DOCX** | ❌ Text Only | Formulas displayed as plain text (Word doesn't support cell calculations) |
+| **PPTX** | ❌ Text Only | Formulas displayed as plain text in table cells |
+
+**Important:** If you need working formulas, use `--format xlsx` to generate Excel files. Word and PowerPoint documents will show formulas as text only.
+
+### Other Limitations
+
+- **Images:** Not yet supported (coming soon)
+- **Complex Tables:** PPTX may need manual adjustment for very large tables
+- **Large Files:** May take time to process (batch mode recommended)
+- **Word Field Codes:** DOCX doesn't support Excel-style formulas
 
 ## Contributing
 
