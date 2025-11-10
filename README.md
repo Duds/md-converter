@@ -7,37 +7,75 @@ Convert Markdown files to DOCX, XLSX, and PPTX formats with YAML front matter, s
 
 ---
 
-## Why This Matters: Consulting by IDE
+## Why This Matters: Enabling IDE-First Consulting
 
-### The IDE-First Consulting Approach
+### The Innovation
 
-Modern consulting increasingly happens **inside the IDE** rather than traditional office suites. AI assistants like Claude in Cursor allow consultants to:
+While most consultants work in traditional office suites (Word, Excel, PowerPoint) and copy-paste from ChatGPT or Copilot, there's a **more efficient approach** waiting to be unlocked:
 
-- **Think and write in Markdown** - Clean, version-controlled, collaborative
-- **Leverage AI assistance** - Real-time document generation and refinement
-- **Work in plain text** - Fast, lightweight, Git-friendly
-- **Maintain single source of truth** - Markdown is the master, outputs are generated
+**Working entirely in your IDE with AI assistance**, then generating client deliverables automatically.
 
-### The Problem
+### The Current Consulting Reality
 
-Clients and stakeholders need documents in **traditional formats** (Word, Excel, PowerPoint):
-- Executive briefings require Word templates
+**Standard workflow (2024-2025):**
+1. Write in Word/PowerPoint
+2. Copy-paste from ChatGPT/Copilot
+3. Manual formatting and cleanup
+4. Version control through file names
+5. Collaboration through email attachments
+
+**Limitations:**
+- Context switching between tools breaks flow
+- Manual formatting is time-consuming
+- Version control is messy
+- AI assistance is fragmented
+
+### The IDE-First Alternative
+
+**This tool enables a new approach:**
+
+- **Think and write in Markdown** - Clean, version-controlled, Git-based collaboration
+- **Leverage embedded AI** - Claude in Cursor provides real-time assistance within your workflow
+- **Work in plain text** - Fast, lightweight, powerful
+- **Single source of truth** - Markdown is master, outputs are generated
+- **Stay in flow** - No context switching to office applications
+
+### The Challenge
+
+Clients and stakeholders need **traditional formats** (Word, Excel, PowerPoint):
+- Executive briefings require Word documents
 - Financial models need Excel workbooks
 - Presentations need PowerPoint decks
 
-Converting manually wastes time and breaks the IDE-first workflow.
+Manually converting breaks the IDE workflow and wastes time.
 
 ### The Solution: MD Converter MCP
 
-**Seamless conversion from IDE to client deliverables:**
+**Seamless bridge from IDE to client deliverables:**
 
-1. **Consultant works in Markdown** - Full IDE power, AI assistance, version control
-2. **Metadata in YAML** - Professional document properties automatically applied
+1. **Work in Markdown** - Full IDE power, AI assistance, version control
+2. **Add metadata in YAML** - Professional document properties
 3. **One command conversion** - Instant professional Word/Excel/PowerPoint
-4. **Quality assurance** - Built-in validation ensures consistency
-5. **Smart exclusions** - System files, notes, and references stay in markdown
+4. **Built-in validation** - Quality assurance ensures consistency
+5. **Smart exclusions** - System files, notes, references stay in markdown
 
-**Result:** Consultants stay in flow, clients get professional deliverables.
+**Result:** You stay in flow, clients get professional deliverables.
+
+### Why This Approach is Faster
+
+**Traditional workflow:**
+- Draft in AI tool → Copy to Word → Format → Review → Revise (repeat in Word)
+
+**IDE-first workflow:**
+- Draft in IDE with AI → Revise in IDE with AI → Convert → Done
+
+**Advantages:**
+- ✅ Single environment for all work
+- ✅ AI context persists throughout document lifecycle
+- ✅ Version control built-in (Git)
+- ✅ Consistent formatting automatically applied
+- ✅ No manual copy-paste
+- ✅ Markdown is portable and future-proof
 
 ### Real-World Consulting Example
 
